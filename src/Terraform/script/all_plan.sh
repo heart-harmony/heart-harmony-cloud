@@ -1,0 +1,1 @@
+terraform plan -var-file=./environment/network.tfvars -var-file=./environment/instance.tfvars -var-file=./environment/rds.tfvars -var-file=./environment/s3.tfvars
